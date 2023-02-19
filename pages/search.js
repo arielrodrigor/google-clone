@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from "next/head";
+import Header from "@/Components/Header";
 function Search() {
     return (
         <div>
@@ -7,8 +8,9 @@ function Search() {
                 <title>Search Page</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1>Search Page</h1>
             {/*Header*/}
+            <Header />
+
             {/*Search Result*/}
 
         </div>
