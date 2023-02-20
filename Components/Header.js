@@ -3,6 +3,7 @@ import Image from "next/image";
 import {useRouter} from "next/router";
 import {MagnifyingGlassIcon, MicrophoneIcon, XMarkIcon} from "@heroicons/react/24/solid";
 import Avatar from "@/Components/Avatar";
+import HeaderOptions from "@/Components/HeaderOptions";
 function Header() {
     const router = useRouter();
     const searchInputRef = useRef(null);
@@ -28,10 +29,11 @@ function Header() {
                     <MagnifyingGlassIcon className={'h-6 mr-3 text-blue-500 hidden sm:inline-flex'}/>
                     <button hidden type={'submit'} onClick={search}>Search</button>
                 </form>
-                <Avatar className={'ml-auto'} url={'https://coaching.papareact.com/ai9'}/>
+                <Avatar className={'ml-auto'} url={'https://firebasestorage.googleapis.com/v0/b/instagram-clone-86dda.appspot.com/o/posts%2FofNZ4DHODywDC28Jf7sw%2Fimage?alt=media&token=76c6ee83-be24-491f-bf38-ff86b32b110b'}/>
 
             </div>
             {/*Header options*/}
+            <HeaderOptions />
 
 
 

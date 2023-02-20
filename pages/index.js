@@ -40,7 +40,7 @@ export default function Home() {
                 {/*Icon*/}
                 <Squares2X2Icon className={'h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'}/>
                 {/*Avatar*/}
-                <Avatar url={'https://coaching.papareact.com/ai9'}/>
+                <Avatar url={'https://firebasestorage.googleapis.com/v0/b/instagram-clone-86dda.appspot.com/o/posts%2FofNZ4DHODywDC28Jf7sw%2Fimage?alt=media&token=76c6ee83-be24-491f-bf38-ff86b32b110b'}/>
             </div>
 
         </header>
