@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from "next/head";
 import Header from "@/Components/Header";
-import Response from "../Response";
 import {useRouter} from "next/router";
 import SearchResults from "@/Components/SearchResults";
+import Response from "@/Response";
 function Search( {results} ) {
 const router = useRouter();
     return (
