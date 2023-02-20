@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from "next/head";
 import Header from "@/Components/Header";
-import Response from "@/Response";
+import Response from "../Response";
 import {useRouter} from "next/router";
 import SearchResults from "@/Components/SearchResults";
 function Search( {results} ) {
@@ -25,7 +25,7 @@ const router = useRouter();
 export default Search;
 
 export async function getServerSideProps(context) {
-    const useDummyData = false ;
+    const useDummyData = true ;
     const startIndex = context.query.start || '0';
 
     // After the Client JS loads, Next.js will call this function
