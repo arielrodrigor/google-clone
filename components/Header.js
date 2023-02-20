@@ -2,8 +2,8 @@ import React, {useRef} from 'react';
 import Image from "next/image";
 import {useRouter} from "next/router";
 import {MagnifyingGlassIcon, MicrophoneIcon, XMarkIcon} from "@heroicons/react/24/solid";
-import Avatar from "@/Components/Avatar";
-import HeaderOptions from "@/Components/HeaderOptions";
+import Avatar from "@/components/Avatar";
+import HeaderOptions from "@/components/HeaderOptions";
 function Header() {
     const router = useRouter();
     const searchInputRef = useRef(null);

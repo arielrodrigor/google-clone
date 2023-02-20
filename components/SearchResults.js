@@ -1,5 +1,5 @@
 import React from 'react';
-import PaginationButtons from "@/Components/PaginationButtons";
+import PaginationButtons from "@/components/PaginationButtons";
 
 function SearchResults({results}) {
     return (

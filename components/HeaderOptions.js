@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderOption from "@/Components/HeaderOption";
+import HeaderOption from "@/components/HeaderOption";
 import {
     EllipsisVerticalIcon,
     MagnifyingGlassIcon,

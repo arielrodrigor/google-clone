@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Avatar from "@/Components/Avatar";
+import Avatar from "@/components/Avatar";
 import {MicrophoneIcon, Squares2X2Icon} from "@heroicons/react/20/solid";
 import Image from "next/image";
 import {MagnifyingGlassIcon} from "@heroicons/react/24/outline";
-import Footer from "@/Components/Footer";
+import Footer from "@/components/Footer";
 import {useRef} from "react";
 import {useRouter} from "next/router";
 

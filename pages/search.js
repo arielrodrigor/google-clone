@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from "next/head";
-import Header from "@/Components/Header";
+import Header from "@/components/Header";
 import {useRouter} from "next/router";
-import SearchResults from "@/Components/SearchResults";
+import SearchResults from "@/components/SearchResults";
 import Response from "@/response";
 function Search( {results} ) {
 const router = useRouter();
